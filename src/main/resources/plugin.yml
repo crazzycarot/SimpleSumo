@@ -1,0 +1,7 @@
+name: SimpleSumo
+version: ${project.version}
+main: simplesumo.simplesumo.SimpleSumo
+api-version: 1.19
+authors: [ Sam ]
+description: Simple Sumo plugin
+website: samdejong.nl
