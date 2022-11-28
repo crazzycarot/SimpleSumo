@@ -13,8 +13,13 @@ public class DataManager {
         this.simpleSumo = simpleSumo;
     }
 
-    public void setSpawnPoint(Location Int) {
+    public void setSpawnPoint(Location spawnPoint, int spawnnumber) {
+        if (spawnPoint instanceof Location) {
+            if (spawnnumber == 1 || spawnnumber == 2) {
+                simpleSumo.getConfig().set("configuration.spawnpoints." + spawnnumber, spawnPoint);
+            }
 
+        }
     }
 
 }

@@ -25,6 +25,8 @@ public class SetSpawnCommand implements CommandExecutor {
                 Location playerLocation = player.getLocation();
                 playerLocation.setY(playerLocation.getY() + 2);
 
+                //do things in data manager
+
             } else {
                 Bukkit.getLogger().fine("You need to be a Player to execute this command");
             }
